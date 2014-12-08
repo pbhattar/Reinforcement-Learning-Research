@@ -1,0 +1,31 @@
+Training players (randomAgent, Qplayer, user):
+
+wrapper: runs game loop number of times; keeps track of wins/loses
+game: Game object with methods that return states, rewards of the game
+states: State object with getAction() and getGrid() methods
+player: Player objects
+
+------------------------------------------------------
+
+MDP: MDP object
+     	 AbstractMDP object (uses mappings returned by h.py)
+	 CrossRiverMDP object
+	 
+h: takes file as input and returns all abstract mappings
+
+-------------------------------------------------------
+
+blocksWorld: has its own MDP object. imports h.py and count2.py
+count2: recursively counts the number of ways of making piles
+
+-----------------------------------------------------------
+
+ttt: sum(15) game which is isomorphic to tic-tac-toe. Computer plays with computer or with user. main prints out who won if there was a tie.
+tic: Same as ttt.py but with different heuristics
+
+-------------------------------------------------------
+
+forBack:
+
+
+	 
